@@ -22,7 +22,7 @@ public class Miprimeracalculadoraorientadaaobjetos {
         calculadoratrigonometrica miCalculadora1;                                    // crear objeto
         miCalculadora1=new calculadoratrigonometrica();
         miCalculadora.meterNumeros();
-       
+        new calculadora().setVisible(true);
         
         System.out.print("selecciones operacion:\n1.sumar\n2.restar\n3.multiplicar\n4.dividir\n5.residuo\n6.seno\n7.coseno\n8.tangente\n9.arcoseno\n10.arccoseno\n11.arctangente"
                 + "\n digite su respuesta :");
@@ -54,7 +54,7 @@ public class Miprimeracalculadoraorientadaaobjetos {
                    break;        
             case 9:System.out.println("el arcoseno es ="+miCalculadora1.arcsin());      
                    break;     
-            case 10:System.out.println("el arccoseno es ="+miCalculadora1.arcos());      
+            case 10:System.out.println("el arccoseno es ="+miCalculadora1.arccos());      
                    break;            
             case 11:System.out.println("el arctangente es ="+miCalculadora1.arctan());      
                    break;            
@@ -65,5 +65,5 @@ public class Miprimeracalculadoraorientadaaobjetos {
         
             }
     }
-    
-    
+
+ 
