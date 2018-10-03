@@ -1,0 +1,5 @@
+class Estudiante:
+i=12345
+a=0
+def metodo ():
+ return "hola mundo"
